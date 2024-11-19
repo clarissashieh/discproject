@@ -1,0 +1,122 @@
+body {
+    background-color: #D1E4F0;
+    font-family: Arial;
+    font-size: 14px;
+    color: #633E23;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav {
+    background-color: #FFFFFFAD;
+    line-height: 50px;
+    text-align: center;
+    width: 90px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .selected {
+    background-color: #D1E4F0;
+  }
+  
+  .me {
+    padding-top: 100px;
+  }
+  
+  .search {
+    background-color: #FFFFFFAD;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  
+  .results {
+    background-color: #FFFFFFAD;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .filter {
+    padding-bottom: 10px;
+  }
+  
+  button {
+    border-radius: 20px;
+    height: 30px;
+    border-width: 0px;
+    color: #633E23;
+  }
+  
+  .profile-type {
+    background-color: #BDDFF4;
+  }
+  
+  .other-filters {
+    background-color: #D6BCA9;
+  }
+  
+  .profile {
+    width: 100%;
+    height: 40px;
+    border-top: 1px dashed;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .person-picture {
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+  
+  .place-picture {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 10px;
+  }
+  
+  .name {
+    padding-right: 15px;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-style: italic;
+    padding-right: 15px
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+  }
+  
+  .add-friend {
+    background-color: #BDDFF4;
+  }
+  
+  .bookmark {
+    background-color: #D6BCA9;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    font-size: 10px;
+    color: #AF876A;
+    gap: 20px;
+  }
